@@ -12,8 +12,8 @@ import { signupRouter } from './routes/signup';
 import { errorHandler } from './middlewares/error-handler';
 import { NotFoundError } from './errors/not-found-error';
 
-const privateKey = fs.readFileSync("./cert/key.pem");
-const certificate = fs.readFileSync("./cert/certificate.pem");
+const privateKey = fs.readFileSync("/run/adminondemand/tls.key");
+const certificate = fs.readFileSync("/run/adminondemand/tls.crt");
 const credentials = {key: privateKey, cert: certificate};
 
 const exp = express();
