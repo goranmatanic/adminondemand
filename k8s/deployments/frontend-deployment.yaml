@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend-depl
+spec:
+  replicas: 1
+  selector: 
+    matchLabels: 
+      app: frontend
+  template: 
+    metadata: 
+      labels:
+        app: frontend
+    spec: 
+      containers: 
+        - name: frontend
+          image: adminregistry.azurecr.io/frontend
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 3000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend-cip
+spec:
+  selector:
+    app: frontend
+  type: ClusterIP
+  ports:
+    - name: frontend
+      port: 3000
+      targetPort: 3000
+      protocol: TCP

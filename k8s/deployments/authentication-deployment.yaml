@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
         - name: authentication
-          image: adminondemand.azurecr.io/authentication
+          image: adminregistry.azurecr.io/authentication
           imagePullPolicy: Always
           env: 
             - name: JWT_KEY
