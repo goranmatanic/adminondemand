@@ -77,5 +77,29 @@ app.post('/authenticate', async (req, res) => {
     }
 })
 
+app.post('/removedevice', async (req, res) => {
+    try {
+        const { uuid } = req.body;
+        const existingDevice = await Device.findOne({ uuid })
+
+        if (existingDevice) {
+
+            await Device.deleteMany({ uuid: uuid })
+
+            res.statusCode = 201;
+            res.send("Device deleted")
+
+            return
+        } else {
+            res.statusCode = 403;
+            res.send("UUID doesn't exist");
+        }
+
+    } catch (error) {
+        res.statusCode = 400;
+        res.send("Please add UUID to request body")
+    }
+})
+
 
 export default app
