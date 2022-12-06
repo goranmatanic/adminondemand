@@ -1,0 +1,853 @@
+{
+    "total_items": 7,
+    "page_count": 1,
+    "items": [
+        {
+            "landing_id": "89vkesg5o7djvtkmk689vjh6g0jjzan6",
+            "token": "89vkesg5o7djvtkmk689vjh6g0jjzan6",
+            "response_id": "89vkesg5o7djvtkmk689vjh6g0jjzan6",
+            "landed_at": "2022-12-05T18:35:27Z",
+            "submitted_at": "2022-12-05T18:36:03Z",
+            "metadata": {
+                "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15",
+                "platform": "other",
+                "referer": "https://k88zlqyc3ru.typeform.com/to/e88QJ87C",
+                "network_id": "d153532dc9",
+                "browser": "default"
+            },
+            "hidden": {},
+            "calculated": {
+                "score": 0
+            },
+            "answers": [
+                {
+                    "field": {
+                        "id": "TOLg5RhSVMRC",
+                        "ref": "01GH47AZMTYDVEFNYQ6FM09ZE8",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "Mirko"
+                },
+                {
+                    "field": {
+                        "id": "HP67T0086s7i",
+                        "ref": "01GH47AZNHTVRW4Q6J8XNFZS2Y",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "d0XCP5fElaZS",
+                        "ref": "eec1173a-6152-49ff-948c-61dfeb01a0b3",
+                        "label": "Small (6-50)"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "2WsQJs01klGT",
+                        "ref": "15112832-2dbe-41a7-96d6-e7881c38b148",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "WEhZHeFXrOxf",
+                        "ref": "db8e2552-fb8f-4fc6-b75a-f53b8caaf46f",
+                        "label": "Yes"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "BWsldfZ5nX0C",
+                        "ref": "44a4711b-705d-4ba5-9ff5-aa6646c672c7",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "5"
+                },
+                {
+                    "field": {
+                        "id": "Frvb3AxAFTo8",
+                        "ref": "cc65e3a2-6c63-4e89-a685-8bb09edbf55c",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "kIUTPKqYPlLJ",
+                        "ref": "da3516bf-40fe-420d-b839-153903a0acb2",
+                        "label": "Yes"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "B4inhePIEnO4",
+                        "ref": "da74059e-5a9b-44f6-93fd-e4db1979527e",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "1"
+                },
+                {
+                    "field": {
+                        "id": "YUdXcdmTvgmF",
+                        "ref": "96ea854a-70cf-45ce-a777-e7e8cb0477dd",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "3zx1peEYsUF0",
+                        "ref": "f85c62af-ad58-4186-9c71-605504831d04",
+                        "label": "No"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "JgKh7jOFW9bF",
+                        "ref": "eb6fe2b9-6ee9-49cb-bc1c-04ab7cbddb05",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "GCoN00cKw9E5",
+                        "ref": "ad4af4da-011a-404a-a1cb-62bb6f0fb9e9",
+                        "label": "No"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "n7lvMbHgoJlr",
+                        "ref": "80554a27-ddae-4fb4-ba94-1544f8fc77df",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "BagoXzEPeTy1",
+                        "ref": "18174115-ed51-48d5-beb5-1142da48d2db",
+                        "label": "Online (cloud)"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "UqGFGOGxPlcX",
+                        "ref": "b3f6cb68-8b58-4b25-9917-9dc607788e80",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "z1WvDhJBQ0Ke",
+                        "ref": "856626e9-52ca-4d9e-93c7-8a3849dfcaf7",
+                        "label": "Up to 12 months"
+                    }
+                }
+            ]
+        },
+        {
+            "landing_id": "cnrevx3us2bzzk574scnrevzwhdnb63o",
+            "token": "cnrevx3us2bzzk574scnrevzwhdnb63o",
+            "response_id": "cnrevx3us2bzzk574scnrevzwhdnb63o",
+            "landed_at": "2022-11-08T18:29:42Z",
+            "submitted_at": "2022-11-08T18:32:08Z",
+            "metadata": {
+                "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36",
+                "platform": "other",
+                "referer": "https://k88zlqyc3ru.typeform.com/to/e88QJ87C",
+                "network_id": "1b47903cef",
+                "browser": "default"
+            },
+            "hidden": {},
+            "calculated": {
+                "score": 0
+            },
+            "answers": [
+                {
+                    "field": {
+                        "id": "TOLg5RhSVMRC",
+                        "ref": "01GH47AZMTYDVEFNYQ6FM09ZE8",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "Lordan Kondić"
+                },
+                {
+                    "field": {
+                        "id": "HP67T0086s7i",
+                        "ref": "01GH47AZNHTVRW4Q6J8XNFZS2Y",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "d0XCP5fElaZS",
+                        "ref": "eec1173a-6152-49ff-948c-61dfeb01a0b3",
+                        "label": "Small (6-50)"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "2WsQJs01klGT",
+                        "ref": "15112832-2dbe-41a7-96d6-e7881c38b148",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "hHANUELkqU4D",
+                        "ref": "8831c97e-b6e9-4f90-9133-56dc19c6c90d",
+                        "label": "No"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "Frvb3AxAFTo8",
+                        "ref": "cc65e3a2-6c63-4e89-a685-8bb09edbf55c",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "kIUTPKqYPlLJ",
+                        "ref": "da3516bf-40fe-420d-b839-153903a0acb2",
+                        "label": "Yes"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "B4inhePIEnO4",
+                        "ref": "da74059e-5a9b-44f6-93fd-e4db1979527e",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "15"
+                },
+                {
+                    "field": {
+                        "id": "YUdXcdmTvgmF",
+                        "ref": "96ea854a-70cf-45ce-a777-e7e8cb0477dd",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "3zx1peEYsUF0",
+                        "ref": "f85c62af-ad58-4186-9c71-605504831d04",
+                        "label": "No"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "JgKh7jOFW9bF",
+                        "ref": "eb6fe2b9-6ee9-49cb-bc1c-04ab7cbddb05",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "HJARSA0fDNNl",
+                        "ref": "d09b75bb-7645-422b-b9be-b14c6f72bf38",
+                        "label": "Yes"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "t8jW5LRy4eUW",
+                        "ref": "4b5574bb-db39-4a0d-91fb-d6398187b3ed",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "2"
+                },
+                {
+                    "field": {
+                        "id": "n7lvMbHgoJlr",
+                        "ref": "80554a27-ddae-4fb4-ba94-1544f8fc77df",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "BagoXzEPeTy1",
+                        "ref": "18174115-ed51-48d5-beb5-1142da48d2db",
+                        "label": "Online (cloud)"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "UqGFGOGxPlcX",
+                        "ref": "b3f6cb68-8b58-4b25-9917-9dc607788e80",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "qAcGOkOepLCY",
+                        "ref": "506100ad-6586-4bb8-9f3c-12500a52c5ac",
+                        "label": "More than 24 months"
+                    }
+                }
+            ]
+        },
+        {
+            "landing_id": "iqedz112pr4z3745fzw34hiqedz11mz8",
+            "token": "iqedz112pr4z3745fzw34hiqedz11mz8",
+            "response_id": "iqedz112pr4z3745fzw34hiqedz11mz8",
+            "landed_at": "2022-11-08T17:46:50Z",
+            "submitted_at": "2022-11-08T17:47:49Z",
+            "metadata": {
+                "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:106.0) Gecko/20100101 Firefox/106.0",
+                "platform": "other",
+                "referer": "https://k88zlqyc3ru.typeform.com/to/e88QJ87C",
+                "network_id": "03333bf5ac",
+                "browser": "default"
+            },
+            "hidden": {},
+            "calculated": {
+                "score": 0
+            },
+            "answers": [
+                {
+                    "field": {
+                        "id": "TOLg5RhSVMRC",
+                        "ref": "01GH47AZMTYDVEFNYQ6FM09ZE8",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "Gost"
+                },
+                {
+                    "field": {
+                        "id": "HP67T0086s7i",
+                        "ref": "01GH47AZNHTVRW4Q6J8XNFZS2Y",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "EDFsMw3kUVRL",
+                        "ref": "01GH47AZNH2X9EB2WXKY2PYKAM",
+                        "label": "Micro (5 or less)"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "2WsQJs01klGT",
+                        "ref": "15112832-2dbe-41a7-96d6-e7881c38b148",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "WEhZHeFXrOxf",
+                        "ref": "db8e2552-fb8f-4fc6-b75a-f53b8caaf46f",
+                        "label": "Yes"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "BWsldfZ5nX0C",
+                        "ref": "44a4711b-705d-4ba5-9ff5-aa6646c672c7",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "1"
+                },
+                {
+                    "field": {
+                        "id": "Frvb3AxAFTo8",
+                        "ref": "cc65e3a2-6c63-4e89-a685-8bb09edbf55c",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "AEQ67mLj8OL0",
+                        "ref": "c83680cf-d8bc-4e58-8093-1c2157c8c2a3",
+                        "label": "No"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "YUdXcdmTvgmF",
+                        "ref": "96ea854a-70cf-45ce-a777-e7e8cb0477dd",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "3zx1peEYsUF0",
+                        "ref": "f85c62af-ad58-4186-9c71-605504831d04",
+                        "label": "No"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "JgKh7jOFW9bF",
+                        "ref": "eb6fe2b9-6ee9-49cb-bc1c-04ab7cbddb05",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "HJARSA0fDNNl",
+                        "ref": "d09b75bb-7645-422b-b9be-b14c6f72bf38",
+                        "label": "Yes"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "t8jW5LRy4eUW",
+                        "ref": "4b5574bb-db39-4a0d-91fb-d6398187b3ed",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "1"
+                },
+                {
+                    "field": {
+                        "id": "n7lvMbHgoJlr",
+                        "ref": "80554a27-ddae-4fb4-ba94-1544f8fc77df",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "b7NmBJhcZrkJ",
+                        "ref": "42d70e17-2aee-488d-96cd-339b7f2bd0cb",
+                        "label": "Localy (local server, on PC...)"
+                    }
+                }
+            ]
+        },
+        {
+            "landing_id": "vy4kg2srf223b5fvy4kgtylwa7xvjrj4",
+            "token": "vy4kg2srf223b5fvy4kgtylwa7xvjrj4",
+            "response_id": "vy4kg2srf223b5fvy4kgtylwa7xvjrj4",
+            "landed_at": "2022-11-06T17:58:49Z",
+            "submitted_at": "2022-11-06T17:59:21Z",
+            "metadata": {
+                "user_agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+                "platform": "mobile",
+                "referer": "https://k88zlqyc3ru.typeform.com/to/e88QJ87C",
+                "network_id": "629a8ec89b",
+                "browser": "touch"
+            },
+            "hidden": {},
+            "calculated": {
+                "score": 0
+            },
+            "answers": [
+                {
+                    "field": {
+                        "id": "TOLg5RhSVMRC",
+                        "ref": "01GH47AZMTYDVEFNYQ6FM09ZE8",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "Pero"
+                },
+                {
+                    "field": {
+                        "id": "HP67T0086s7i",
+                        "ref": "01GH47AZNHTVRW4Q6J8XNFZS2Y",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "TYWH3gAuQnTT",
+                        "ref": "20b8bb7e-5b24-4f12-9194-64ef6b089d7c",
+                        "label": "Medium (51-250)"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "2WsQJs01klGT",
+                        "ref": "15112832-2dbe-41a7-96d6-e7881c38b148",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "hHANUELkqU4D",
+                        "ref": "8831c97e-b6e9-4f90-9133-56dc19c6c90d",
+                        "label": "No"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "Frvb3AxAFTo8",
+                        "ref": "cc65e3a2-6c63-4e89-a685-8bb09edbf55c",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "AEQ67mLj8OL0",
+                        "ref": "c83680cf-d8bc-4e58-8093-1c2157c8c2a3",
+                        "label": "No"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "YUdXcdmTvgmF",
+                        "ref": "96ea854a-70cf-45ce-a777-e7e8cb0477dd",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "H5iYObN91ABW",
+                        "ref": "ec2c0d05-d74e-42c4-9249-64355a6accc4",
+                        "label": "Yes"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "hZouyCiDIqSp",
+                        "ref": "dadf7a01-5c2f-4ae7-b3da-1e654b747f1b",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "50"
+                },
+                {
+                    "field": {
+                        "id": "JgKh7jOFW9bF",
+                        "ref": "eb6fe2b9-6ee9-49cb-bc1c-04ab7cbddb05",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "GCoN00cKw9E5",
+                        "ref": "ad4af4da-011a-404a-a1cb-62bb6f0fb9e9",
+                        "label": "No"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "n7lvMbHgoJlr",
+                        "ref": "80554a27-ddae-4fb4-ba94-1544f8fc77df",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "b7NmBJhcZrkJ",
+                        "ref": "42d70e17-2aee-488d-96cd-339b7f2bd0cb",
+                        "label": "Localy (local server, on PC...)"
+                    }
+                }
+            ]
+        },
+        {
+            "landing_id": "oba7zpwxh6tpegwunk4oba7cuctlxiys",
+            "token": "oba7zpwxh6tpegwunk4oba7cuctlxiys",
+            "response_id": "oba7zpwxh6tpegwunk4oba7cuctlxiys",
+            "landed_at": "2022-11-06T17:39:59Z",
+            "submitted_at": "2022-11-06T17:48:08Z",
+            "metadata": {
+                "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36",
+                "platform": "other",
+                "referer": "https://k88zlqyc3ru.typeform.com/to/e88QJ87C",
+                "network_id": "e162d7a144",
+                "browser": "default"
+            },
+            "hidden": {},
+            "calculated": {
+                "score": 0
+            },
+            "answers": [
+                {
+                    "field": {
+                        "id": "TOLg5RhSVMRC",
+                        "ref": "01GH47AZMTYDVEFNYQ6FM09ZE8",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "Matej"
+                },
+                {
+                    "field": {
+                        "id": "HP67T0086s7i",
+                        "ref": "01GH47AZNHTVRW4Q6J8XNFZS2Y",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "d0XCP5fElaZS",
+                        "ref": "eec1173a-6152-49ff-948c-61dfeb01a0b3",
+                        "label": "Small (6-50)"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "2WsQJs01klGT",
+                        "ref": "15112832-2dbe-41a7-96d6-e7881c38b148",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "WEhZHeFXrOxf",
+                        "ref": "db8e2552-fb8f-4fc6-b75a-f53b8caaf46f",
+                        "label": "Yes"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "BWsldfZ5nX0C",
+                        "ref": "44a4711b-705d-4ba5-9ff5-aa6646c672c7",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "5"
+                },
+                {
+                    "field": {
+                        "id": "Frvb3AxAFTo8",
+                        "ref": "cc65e3a2-6c63-4e89-a685-8bb09edbf55c",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "kIUTPKqYPlLJ",
+                        "ref": "da3516bf-40fe-420d-b839-153903a0acb2",
+                        "label": "Yes"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "B4inhePIEnO4",
+                        "ref": "da74059e-5a9b-44f6-93fd-e4db1979527e",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "5"
+                },
+                {
+                    "field": {
+                        "id": "YUdXcdmTvgmF",
+                        "ref": "96ea854a-70cf-45ce-a777-e7e8cb0477dd",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "H5iYObN91ABW",
+                        "ref": "ec2c0d05-d74e-42c4-9249-64355a6accc4",
+                        "label": "Yes"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "hZouyCiDIqSp",
+                        "ref": "dadf7a01-5c2f-4ae7-b3da-1e654b747f1b",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "5"
+                },
+                {
+                    "field": {
+                        "id": "JgKh7jOFW9bF",
+                        "ref": "eb6fe2b9-6ee9-49cb-bc1c-04ab7cbddb05",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "HJARSA0fDNNl",
+                        "ref": "d09b75bb-7645-422b-b9be-b14c6f72bf38",
+                        "label": "Yes"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "t8jW5LRy4eUW",
+                        "ref": "4b5574bb-db39-4a0d-91fb-d6398187b3ed",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "5"
+                },
+                {
+                    "field": {
+                        "id": "n7lvMbHgoJlr",
+                        "ref": "80554a27-ddae-4fb4-ba94-1544f8fc77df",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "b7NmBJhcZrkJ",
+                        "ref": "42d70e17-2aee-488d-96cd-339b7f2bd0cb",
+                        "label": "Localy (local server, on PC...)"
+                    }
+                }
+            ]
+        },
+        {
+            "landing_id": "eogcduilms2keweogcdf39ft3ul39xz8",
+            "token": "eogcduilms2keweogcdf39ft3ul39xz8",
+            "response_id": "eogcduilms2keweogcdf39ft3ul39xz8",
+            "landed_at": "2022-11-05T17:33:15Z",
+            "submitted_at": "2022-11-05T17:34:29Z",
+            "metadata": {
+                "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36",
+                "platform": "other",
+                "referer": "https://k88zlqyc3ru.typeform.com/to/e88QJ87C",
+                "network_id": "7e6f06fc6f",
+                "browser": "default"
+            },
+            "hidden": {},
+            "calculated": {
+                "score": 0
+            },
+            "answers": [
+                {
+                    "field": {
+                        "id": "TOLg5RhSVMRC",
+                        "ref": "01GH47AZMTYDVEFNYQ6FM09ZE8",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "Pero"
+                },
+                {
+                    "field": {
+                        "id": "HP67T0086s7i",
+                        "ref": "01GH47AZNHTVRW4Q6J8XNFZS2Y",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "z7GJf4PsKOHT",
+                        "ref": "e47c9624-7bff-4cc1-9496-bd5d3380df28",
+                        "label": "Large (more than 250)"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "2WsQJs01klGT",
+                        "ref": "15112832-2dbe-41a7-96d6-e7881c38b148",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "WEhZHeFXrOxf",
+                        "ref": "db8e2552-fb8f-4fc6-b75a-f53b8caaf46f",
+                        "label": "Yes"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "BWsldfZ5nX0C",
+                        "ref": "44a4711b-705d-4ba5-9ff5-aa6646c672c7",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "6"
+                },
+                {
+                    "field": {
+                        "id": "Frvb3AxAFTo8",
+                        "ref": "cc65e3a2-6c63-4e89-a685-8bb09edbf55c",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "AEQ67mLj8OL0",
+                        "ref": "c83680cf-d8bc-4e58-8093-1c2157c8c2a3",
+                        "label": "No"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "YUdXcdmTvgmF",
+                        "ref": "96ea854a-70cf-45ce-a777-e7e8cb0477dd",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "H5iYObN91ABW",
+                        "ref": "ec2c0d05-d74e-42c4-9249-64355a6accc4",
+                        "label": "Yes"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "hZouyCiDIqSp",
+                        "ref": "dadf7a01-5c2f-4ae7-b3da-1e654b747f1b",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "100"
+                },
+                {
+                    "field": {
+                        "id": "JgKh7jOFW9bF",
+                        "ref": "eb6fe2b9-6ee9-49cb-bc1c-04ab7cbddb05",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "HJARSA0fDNNl",
+                        "ref": "d09b75bb-7645-422b-b9be-b14c6f72bf38",
+                        "label": "Yes"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "t8jW5LRy4eUW",
+                        "ref": "4b5574bb-db39-4a0d-91fb-d6398187b3ed",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "100"
+                },
+                {
+                    "field": {
+                        "id": "n7lvMbHgoJlr",
+                        "ref": "80554a27-ddae-4fb4-ba94-1544f8fc77df",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "b7NmBJhcZrkJ",
+                        "ref": "42d70e17-2aee-488d-96cd-339b7f2bd0cb",
+                        "label": "Localy (local server, on PC...)"
+                    }
+                }
+            ]
+        },
+        {
+            "landing_id": "tna6afb8nls6mvmy83nytna6au6i46r3",
+            "token": "tna6afb8nls6mvmy83nytna6au6i46r3",
+            "response_id": "tna6afb8nls6mvmy83nytna6au6i46r3",
+            "landed_at": "2022-11-05T15:49:32Z",
+            "submitted_at": "2022-11-05T15:49:39Z",
+            "metadata": {
+                "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36",
+                "platform": "other",
+                "referer": "https://k88zlqyc3ru.typeform.com/to/e88QJ87C",
+                "network_id": "85c264fd84",
+                "browser": "default"
+            },
+            "hidden": {},
+            "calculated": {
+                "score": 0
+            },
+            "answers": [
+                {
+                    "field": {
+                        "id": "TOLg5RhSVMRC",
+                        "ref": "01GH47AZMTYDVEFNYQ6FM09ZE8",
+                        "type": "short_text"
+                    },
+                    "type": "text",
+                    "text": "Dora"
+                },
+                {
+                    "field": {
+                        "id": "HP67T0086s7i",
+                        "ref": "01GH47AZNHTVRW4Q6J8XNFZS2Y",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "d0XCP5fElaZS",
+                        "ref": "eec1173a-6152-49ff-948c-61dfeb01a0b3",
+                        "label": "Small (6-50)"
+                    }
+                },
+                {
+                    "field": {
+                        "id": "2WsQJs01klGT",
+                        "ref": "15112832-2dbe-41a7-96d6-e7881c38b148",
+                        "type": "multiple_choice"
+                    },
+                    "type": "choice",
+                    "choice": {
+                        "id": "76KQJ79opWJc"
+                    }
+                }
+            ]
+        }
+    ]
+}

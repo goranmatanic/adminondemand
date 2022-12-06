@@ -1,12 +1,14 @@
 import subprocess
 import json
 
-res = subprocess.Popen("curl -s --header 'Authorization: Bearer tfp_H16GhjcYXUqvfcPzVwtxU2khsYp6Ar9FpKKwgTwZjZxV_3sqbFdcPSnFS5i' https://api.typeform.com/forms/e88QJ87C/responses", shell=True, stdout=subprocess.PIPE)
-answers = res.stdout.read()
+# Zakomentirano zbog Authorization failed errora
+#res = subprocess.Popen("curl -s --header 'Authorization: Bearer tfp_H16GhjcYXUqvfcPzVwtxU2khsYp6Ar9FpKKwgTwZjZxV_3sqbFdcPSnFS5i' https://api.typeform.com/forms/e88QJ87C/responses", shell=True, stdout=subprocess.PIPE)
+#answers = res.stdout.read()
 
-answers_json = json.loads(answers)
+# Answers.json file ima sample odgovora za obradu
+answers_file = open("answers.json", "r")
 
-#print(answers_json['items'][0]['answers'][0]['text'])
+answers_json = json.loads(answers_file.read())
 
 print("---------------- Submissions ----------------")
 for answer in answers_json['items']:
@@ -51,8 +53,3 @@ for answer in answers_json['items']:
         print(f"Current storage solution: {answer['answers'][8]['choice']['label']}")
     except:
         print("Current storage solution: NOT SET")
-
-    #try:
-    #    print(f"Marketing size: {answer['answers'][9]['text']}")
-    #except:
-    #    print("Marketing size: NOT SET")
