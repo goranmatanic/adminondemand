@@ -28,20 +28,20 @@ CREATE TABLE IF NOT EXISTS Usluge (
     Price varchar(30) NOT NULL
 );
 
-INSERT INTO Usluge (Name, Price) VALUES ("Microsoft 365 Business Basic", "$6.00");
-INSERT INTO Usluge (Name, Price) VALUES ("Microsoft 365 Apps for Business", "$8.25");
-INSERT INTO Usluge (Name, Price) VALUES ("Microsoft 365 Business Standard", "$12.50");
-INSERT INTO Usluge (Name, Price) VALUES ("Microsoft 365 Business Premium", "$22.00");
-INSERT INTO Usluge (Name, Price) VALUES ("Office 365 Enterprise F3", "$4.00");
-INSERT INTO Usluge (Name, Price) VALUES ("Office 365 Enterprise E1", "$10");
-INSERT INTO Usluge (Name, Price) VALUES ("Office 365 Enterprise E3", "$23");
-INSERT INTO Usluge (Name, Price) VALUES ("Office 365 Enterprise E5", "$38");
 INSERT INTO Usluge (Name, Price) VALUES ("Microsoft 365 Enterprise F1", "$2.25");
-INSERT INTO Usluge (Name, Price) VALUES ("Microsoft 365 Enterprise F3", "$8");
-INSERT INTO Usluge (Name, Price) VALUES ("Microsoft 365 Enterprise E3", "$36");
-INSERT INTO Usluge (Name, Price) VALUES ("Microsoft 365 Enterprise E5", "$57");
+INSERT INTO Usluge (Name, Price) VALUES ("Office 365 Enterprise F3", "$4.00");
 INSERT INTO Usluge (Name, Price) VALUES ("Google Business starter", "$6");
+INSERT INTO Usluge (Name, Price) VALUES ("Microsoft 365 Business Basic", "$6.00");
+INSERT INTO Usluge (Name, Price) VALUES ("Microsoft 365 Enterprise F3", "$8");
+INSERT INTO Usluge (Name, Price) VALUES ("Microsoft 365 Apps for Business", "$8.25");
+INSERT INTO Usluge (Name, Price) VALUES ("Office 365 Enterprise E1", "$10");
 INSERT INTO Usluge (Name, Price) VALUES ("Google Business standard", "$12");
+INSERT INTO Usluge (Name, Price) VALUES ("Microsoft 365 Business Standard", "$12.50");
 INSERT INTO Usluge (Name, Price) VALUES ("Google Business plus", "$18");
+INSERT INTO Usluge (Name, Price) VALUES ("Microsoft 365 Business Premium", "$22.00");
+INSERT INTO Usluge (Name, Price) VALUES ("Office 365 Enterprise E3", "$23");
+INSERT INTO Usluge (Name, Price) VALUES ("Microsoft 365 Enterprise E3", "$36");
+INSERT INTO Usluge (Name, Price) VALUES ("Office 365 Enterprise E5", "$38");
+INSERT INTO Usluge (Name, Price) VALUES ("Microsoft 365 Enterprise E5", "$57");
 INSERT INTO Usluge (Name, Price) VALUES ("Adobe Creative Cloud", "$55");
 

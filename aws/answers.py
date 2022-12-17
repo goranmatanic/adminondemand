@@ -140,31 +140,31 @@ def PrintAnswers():
 
 def GenerateRecommendation(answer):
     if (answer.value <= 210 and answer.creative != "0"):
-        print("Mala firma sa creative odjelom")
+        print("Mala firma sa creative odjelom\nPreporuka neka usluga za manje od 10$ po licenci + Adobe creative cloud")
         return
     elif (answer.value <= 210):
-        print("Mala firma")
+        print("Mala firma\nPreporuka neka usluga za manje od 10$ po licenci")
         return
 
     if (answer.value <= 360 and answer.creative != "0"):
-        print("Mala - srednja firma sa creative odjelom")
+        print("Mala - srednja firma sa creative odjelom\nPreporuka neka usluga za manje od 20$ po licenci + Adobe creative cloud")
         return
     elif (answer.value <= 360):
-        print("Mala - srednja firma")
+        print("Mala - srednja firma\nPreporuka neka usluga za manje od 20$ po licenci")
         return
 
     if (answer.value <= 510 and answer.creative != "0"):
-        print("Srednja - velika firma sa creative odjelom")
+        print("Srednja - velika firma sa creative odjelom\nPreporuka neka usluga za manje od 30$ po licenci + Adobe creative cloud")
         return
     elif (answer.value <= 510):
-        print("Srednja - velika firma")
+        print("Srednja - velika firma\nPreporuka neka usluga za manje od 30$ po licenci")
         return
 
     if (answer.creative != "0"):
-        print("Velika firma sa creative odjelom")
+        print("Velika firma sa creative odjelom\nPreporuka neki najskuplji Office paket + Adobe creative cloud")
         return
     else:
-        print("Velika firma")
+        print("Velika firma\nPreporuka neki najskuplji Office paket")
 
 GenerateAnswers()
 QuantifyAnswers()
