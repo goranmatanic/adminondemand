@@ -1,9 +1,8 @@
-from lib2to3.pgen2.pgen import generate_grammar
-from operator import indexOf
-from random import random, choice
+from calendar import c
+from inspect import getclosurevars
+from random import choice
 import subprocess
 import json
-from unittest import case
 
 class Answer:
     def __init__(self, name, company_size, accounting, creative, it):
@@ -69,7 +68,7 @@ def CheckValidAnswers(answer):
         return True
 
 def GenerateAnswers():
-    num_of_answers = 5000
+    num_of_answers = 100
 
     for i in range(num_of_answers):
         name = f"automatedAnswer{i}"
@@ -83,8 +82,6 @@ def GenerateAnswers():
         if ((CheckValidAnswers(ans))):
             valid_answers.append(ans)
 
-    print(f"Valid answers: {len(valid_answers)}")
-
 def QuantifyAnswers():
 
     for ans in valid_answers:
@@ -96,78 +93,77 @@ def QuantifyAnswers():
         ans_value = (com * 90) + (acc * 20) + (cre * 20) + (it * 20)
         ans.setValue(ans_value)
 
-def PrintAnswers():
-    small_companies = []
-    small_mid_companies = []
-    mid_big_companies = []
-    big_companies = []
-
-    for ans in valid_answers:
-        if (ans.company_size == "1-5"):
-            small_companies.append(ans)
-            #print(ans)
-        elif (ans.company_size == "6 - 50"):
-            small_mid_companies.append(ans)
-            #print(ans)
-        elif (ans.company_size == "51 - 250"):
-            mid_big_companies.append(ans)
-            #print(ans)
-        elif (ans.company_size == ">250"):
-            big_companies.append(ans)
-            #print(ans)
-
-    sum_small = 0
-    sum_small_mid = 0
-    sum_mid_big = 0
-    sum_big = 0
-
-    for ans in small_companies:
-        sum_small += ans.value
-
-    for ans in small_mid_companies:
-        sum_small_mid += ans.value
-        
-    for ans in mid_big_companies:
-        sum_mid_big += ans.value
-        
-    for ans in big_companies:
-        sum_big += ans.value
-
-    #print(f"Average small company value: {sum_small/len(small_companies)}")
-    #print(f"Average small_mid company value: {sum_small_mid/len(small_mid_companies)}")
-    #print(f"Average mid_big company value: {sum_mid_big/len(mid_big_companies)}")
-    #print(f"Average big company value: {sum_big/len(big_companies)}")
-
 def GenerateRecommendation(answer):
+
+    services = open("services.json", "r")
+    services_json = json.load(services)
+    services.close()
+
+    def GetClosestValue(ans):
+
+        office_services_abs = []
+        creative_services_abs = []
+
+        for service in services_json['services']:
+            if (service['category'] == "office"):
+                 svc = {"name": service['name'], "abs": f"{abs(ans.value - int(service['value']))}"}
+                 #svc = {"name": service['name'], "abs": f"{ans.value - int(service['value'])}"}
+                 office_services_abs.append(svc)
+
+            if (answer.creative != "0" and service['category'] == "creative"):
+                 svc = {"name": service['name'], "abs": f"{abs(ans.value - int(service['value']))}"}
+                 #svc = {"name": service['name'], "abs": f"{ans.value - int(service['value'])}"}
+                 creative_services_abs.append(svc)
+
+        sorted_office_services = sorted(office_services_abs, key=lambda d: d['abs'])
+        sorted_creative_services = sorted(creative_services_abs, key=lambda d: d['abs'])
+
+        sorted_services = sorted_office_services[:3] + sorted_creative_services[:3]
+
+        return sorted_services
+
+    return GetClosestValue(answer)
+
     if (answer.value <= 210 and answer.creative != "0"):
-        print("Mala firma sa creative odjelom\nPreporuka neka usluga za manje od 10$ po licenci + Adobe creative cloud")
+        #print("Mala firma sa creative odjelom\nPreporuka neka usluga za manje od 10$ po licenci + Adobe creative cloud")
+        #recommended_services = GetClosestValue(answer)
+        #print (recommended_services)
         return
     elif (answer.value <= 210):
-        print("Mala firma\nPreporuka neka usluga za manje od 10$ po licenci")
+        #print("Mala firma\nPreporuka neka usluga za manje od 10$ po licenci")
+        #recommended_services = GetClosestValue(answer)
+        #print (recommended_services)
         return
 
     if (answer.value <= 360 and answer.creative != "0"):
-        print("Mala - srednja firma sa creative odjelom\nPreporuka neka usluga za manje od 20$ po licenci + Adobe creative cloud")
+        #print("Mala - srednja firma sa creative odjelom\nPreporuka neka usluga za manje od 20$ po licenci + Adobe creative cloud")
+        #recommended_services = GetClosestValue(answer)
+        #print (recommended_services)
         return
     elif (answer.value <= 360):
-        print("Mala - srednja firma\nPreporuka neka usluga za manje od 20$ po licenci")
+        #print("Mala - srednja firma\nPreporuka neka usluga za manje od 20$ po licenci")
+        #recommended_services = GetClosestValue(answer)
+        #print (recommended_services)
         return
 
     if (answer.value <= 510 and answer.creative != "0"):
-        print("Srednja - velika firma sa creative odjelom\nPreporuka neka usluga za manje od 30$ po licenci + Adobe creative cloud")
+       # print("Srednja - velika firma sa creative odjelom\nPreporuka neka usluga za manje od 30$ po licenci + Adobe creative cloud")
         return
     elif (answer.value <= 510):
-        print("Srednja - velika firma\nPreporuka neka usluga za manje od 30$ po licenci")
+        #print("Srednja - velika firma\nPreporuka neka usluga za manje od 30$ po licenci")
         return
 
     if (answer.creative != "0"):
-        print("Velika firma sa creative odjelom\nPreporuka neki najskuplji Office paket + Adobe creative cloud")
+        #print("Velika firma sa creative odjelom\nPreporuka neki najskuplji Office paket + Adobe creative cloud")
         return
     else:
-        print("Velika firma\nPreporuka neki najskuplji Office paket")
+        #print("Velika firma\nPreporuka neki najskuplji Office paket")
+        return
 
 GenerateAnswers()
 QuantifyAnswers()
-PrintAnswers()
 for ans in valid_answers:
-    GenerateRecommendation(ans)
+    rcmd = GenerateRecommendation(ans)
+    print(f"For a company with {ans.company_size} employees we recommend the following: ")
+    for entry in rcmd:
+        print(f"---------------> {entry['name']}")
