@@ -55,13 +55,16 @@ const Survey: React.FC<SurveyProps> = ({ questions, onSubmit }) => {
     if (recommendations.length > 0) {
         renderedRecommendations = Object.values(recommendations).map(rcm => {
             return (
-                <Element name={rcm.name} url={rcm.url} price={rcm.price} />
+                <>
+                    <>Recommendations</>
+                    <Element name={rcm.name} url={rcm.url} price={rcm.price} />
+                </>
             )
         })
     };
 
     return (
-        <form className="w-full max-w-lg" onSubmit={handleSubmit}>
+        <form className="w-full max-w-lg bg-gray-200 rounded-lg p-4 mx-auto mt-8" onSubmit={handleSubmit}>
             <div className="mb-4 flex items-center">
                 <label htmlFor="name" className="mr-2 font-bold text-lg">
                     Please state your name:
@@ -75,15 +78,15 @@ const Survey: React.FC<SurveyProps> = ({ questions, onSubmit }) => {
                 />
             </div>
             <div className="flex">
-                <div className="w-1/2 pr-4">
+                <div className="mx-auto mt-8 w-full max-w-lg ml-12">
                     {questions.map((question, index) => (
                         <div key={question.text} className="mb-4">
-                            <p className="text-lg font-bold mb-2">{question.text}</p>
+                            <p className="text-lg font-bold mb-2 text-center">{question.text}</p>
                             {question.options.map(option => (
                                 <div key={option} className="mb-2">
                                     <label className="block cursor-pointer">
                                         <input
-                                            className="mr-2 leading-tight"
+                                            className="mr-2 leading-tight ml-6"
                                             type="radio"
                                             value={option}
                                             checked={answers[index] === option}
@@ -98,12 +101,11 @@ const Survey: React.FC<SurveyProps> = ({ questions, onSubmit }) => {
                 </div>
                 <div className="w-1/2 pl-4">
                     <div className="mb-4 flex items-right">
-                        Recommendations
                         {renderedRecommendations}
                     </div>
                 </div>
             </div>
-            <button className="px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue active:bg-blue-800" type="submit">
+            <button className="ml-16 px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue active:bg-blue-800" type="submit">
                 Submit
             </button>
         </form >

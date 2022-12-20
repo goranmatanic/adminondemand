@@ -2,6 +2,7 @@ import { NextApiRequest, NextApiResponse } from 'next';
 import path from 'path';
 import { promises as fs } from 'fs';
 import { Answer } from '../../interfaces/answer';
+import { http_host } from '../../utils/sample-data';
 
 const handler = async (_req: NextApiRequest, res: NextApiResponse) => {
     const { method, body } = _req;
@@ -19,7 +20,7 @@ const handler = async (_req: NextApiRequest, res: NextApiResponse) => {
         var office_services_abs = []
         var creative_services_abs = []
 
-        const response = await fetch('http://localhost:3000/api/quantify', {
+        const response = await fetch(`${http_host}/api/quantify`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

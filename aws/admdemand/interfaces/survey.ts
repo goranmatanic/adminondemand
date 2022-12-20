@@ -6,7 +6,7 @@ interface SurveyQuestion {
 
 export interface Question {
     text: string;
-    options: string[];
+    choices: string[];
 }
 
 export interface SurveyProps {

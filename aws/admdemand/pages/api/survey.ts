@@ -1,5 +1,6 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import { Answer } from '../../interfaces/answer';
+import { http_host } from '../../utils/sample-data';
 
 const handler = async (_req: NextApiRequest, res: NextApiResponse) => {
     const { method, body } = _req;
@@ -21,7 +22,7 @@ const handler = async (_req: NextApiRequest, res: NextApiResponse) => {
 
         console.log("Recevied request at /api/survey")
 
-        const response = await fetch('http://localhost:3000/api/checkvalid', {
+        const response = await fetch(`${http_host}/api/checkvalid`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -32,7 +33,7 @@ const handler = async (_req: NextApiRequest, res: NextApiResponse) => {
         const valid = response.status
         if (valid == 200) {
 
-            const generate_response = await fetch('http://localhost:3000/api/generate', {
+            const generate_response = await fetch(`${http_host}/api/generate`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
