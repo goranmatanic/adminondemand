@@ -1,0 +1,116 @@
+{
+    "services": [
+        {
+            "name": "Microsoft 365 Enterprise F1",
+            "price": "$2.25",
+            "category": "office",
+            "value": "170",
+            "url": "https://www.microsoft.com/hr-hr/microsoft-365/enterprise/f1"
+        },
+        {
+            "name": "Office 365 Enterprise F3",
+            "price": "$4.00",
+            "category": "office",
+            "value": "180",
+            "url": "https://www.microsoft.com/hr-hr/microsoft-365/enterprise/office-365-f3"
+        },
+        {
+            "name": "Google Business starter",
+            "price": "$6",
+            "category": "office",
+            "value": "180",
+            "url": "https://support.google.com/a/answer/10071876"
+        },
+        {
+            "name": "Microsoft 365 Business Basic",
+            "price": "$6.00",
+            "category": "office",
+            "value": "180",
+            "url": "https://www.microsoft.com/hr-hr/microsoft-365/business/microsoft-365-business-basic"
+        },
+        {
+            "name": "Microsoft 365 Enterprise F3",
+            "price": "$8",
+            "category": "office",
+            "value": "190",
+            "url": "https://www.microsoft.com/en-us/microsoft-365/enterprise/f3"
+        },
+        {
+            "name": "Microsoft 365 Apps for Business",
+            "price": "$8.25",
+            "category": "office",
+            "value": "200",
+            "url": "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-apps-for-business"
+        },
+        {
+            "name": "Office 365 Enterprise E1",
+            "price": "$10",
+            "category": "office",
+            "value": "260",
+            "url": "https://www.microsoft.com/en-ww/microsoft-365/enterprise/office-365-e1"
+        },
+        {
+            "name": "Google Business standard",
+            "price": "$12",
+            "category": "office",
+            "value": "290",
+            "url": "https://support.google.com/a/answer/10071955"
+        },
+        {
+            "name": "Microsoft 365 Business Standard",
+            "price": "$12.50",
+            "category": "office",
+            "value": "310",
+            "url": "https://www.microsoft.com/hr-hr/microsoft-365/business/microsoft-365-business-standard"
+        },
+        {
+            "name": "Google Business plus",
+            "price": "$18",
+            "category": "office",
+            "value": "350",
+            "url": "https://support.google.com/a/answer/10006358"
+        },
+        {
+            "name": "Microsoft 365 Business Premium",
+            "price": "$22.00",
+            "category": "office",
+            "value": "400",
+            "url": "https://www.microsoft.com/hr-hr/microsoft-365/business/microsoft-365-business-premium"
+        },
+        {
+            "name": "Office 365 Enterprise E3",
+            "price": "$23",
+            "category": "office",
+            "value": "450",
+            "url": "https://www.microsoft.com/en-us/microsoft-365/enterprise/office-365-e3"
+        },
+        {
+            "name": "Microsoft 365 Enterprise E3",
+            "price": "$36",
+            "category": "office",
+            "value": "500",
+            "url": "https://www.microsoft.com/en-us/microsoft-365/enterprise/e3"
+        },
+        {
+            "name": "Office 365 Enterprise E5",
+            "price": "$38",
+            "category": "office",
+            "value": "510",
+            "url": "https://www.microsoft.com/hr-hr/microsoft-365/enterprise/office-365-e5"
+        },
+        {
+            "name": "Microsoft 365 Enterprise E5",
+            "price": "$57",
+            "category": "office",
+            "value": "650",
+            "url": "https://www.microsoft.com/en-us/microsoft-365/enterprise/e5"
+        },
+        {
+            "name": "Adobe Creative Cloud",
+            "price": "$55",
+            "category": "creative",
+            "value": "200",
+            "url": "https://commerce.adobe.com/store/commitment?cli=adobe_com&co=US&ctx=fp&items%5B0%5D%5Bid%5D=632B3ADD940A7FBB7864AA5AD19B8D28&lang=en"
+        }
+    ]
+}
