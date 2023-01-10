@@ -105,12 +105,201 @@
             "value": "650",
             "url": "https://www.microsoft.com/en-us/microsoft-365/enterprise/e5"
         },
-        {
+		 {
+            "name": "Azure Linux Small",
+            "price": "$36,5",
+            "category": "virtualm",
+            "value": "170",
+            "url": ""
+        },
+		 {
+            "name": "AWS Linux Small",
+            "price": "$29,41",
+            "category": "virtualm",
+            "value": "170",
+            "url": ""
+        },
+		 {
+            "name": "Google Linux Small",
+            "price": "$20,08",
+            "category": "virtualm",
+            "value": "180",
+            "url": ""
+        },
+		 {
+            "name": "Azure Windows Small",
+            "price": "$70,75",
+            "category": "virtualm",
+            "value": "180",
+            "url": ""
+        },
+		 {
+            "name": "AWS Windows Small",
+            "price": "$61,25",
+            "category": "virtualm",
+            "value": "190",
+            "url": ""
+        },
+		 {
+            "name": "Google Windows Small",
+            "price": "$50,25",
+            "category": "virtualm",
+            "value": "200",
+            "url": ""
+        },
+		 {
+            "name": "Azure Windows Medium",
+            "price": "$140,16",
+            "category": "virtualm",
+            "value": "200",
+            "url": ""
+        },
+		 {
+            "name": "AWS Windows Medium",
+            "price": "$107,41",
+            "category": "virtualm",
+            "value": "210",
+            "url": ""
+        },
+		 {
+            "name": "Google Windows Medium",
+            "price": "$99,16",
+            "category": "virtualm",
+            "value": "210",
+            "url": ""
+        },
+		 {
+            "name": "Azure Linux Medium",
+            "price": "73",
+            "category": "virtualm",
+            "value": "220",
+            "url": ""
+        },
+		 {
+            "name": "AWS Linux Medium",
+            "price": "$43,25",
+            "category": "virtualm",
+            "value": "220",
+            "url": ""
+        },
+		 {
+            "name": "Google Linux Medium",
+            "price": "$39,83",
+            "category": "virtualm",
+            "value": "230",
+            "url": ""
+        },
+		 {
+            "name": "Azure Linux Large",
+            "price": "$145,50",
+            "category": "virtualm",
+            "value": "250",
+            "url": ""
+        },
+		 {
+            "name": "AWS Linux Large",
+            "price": "$171,91",
+            "category": "virtualm",
+            "value": "250",
+            "url": ""
+        },
+		 {
+            "name": "Google Linux Large",
+            "price": "$79,25",
+            "category": "virtualm",
+            "value": "270",
+            "url": ""
+        },
+		 {
+            "name": "Azure Windows Large",
+            "price": "$279,58",
+            "category": "virtualm",
+            "value": "280",
+            "url": ""
+        },
+		 {
+            "name": "AWS Windows Large",
+            "price": "$212,08",
+            "category": "virtualm",
+            "value": "300",
+            "url": ""
+        },
+		 {
+            "name": "Google Windows Large",
+            "price": "$197,00",
+            "category": "virtualm",
+            "value": "350",
+            "url": ""
+        },
+		 {
             "name": "Adobe Creative Cloud",
             "price": "$55",
             "category": "creative",
             "value": "200",
             "url": "https://commerce.adobe.com/store/commitment?cli=adobe_com&co=US&ctx=fp&items%5B0%5D%5Bid%5D=632B3ADD940A7FBB7864AA5AD19B8D28&lang=en"
         }
+		 {
+            "name": "Canva Pro",
+            "price": "$119,99",
+            "category": "creative",
+            "value": "210",
+            "url": "https://www.canva.com/pricing/"
+        }
+		 {
+            "name": "Canva For Teams",
+            "price": "$149,90",
+            "category": "creative",
+            "value": "210",
+            "url": "https://www.canva.com/pricing/"
+        }
+		{
+            "name": "Figma Professional",
+            "price": "$120,00",
+            "category": "creative",
+            "value": "220",
+            "url": "https://www.figma.com/pricing/"
+        }
+		{
+            "name": "Figma Organization",
+            "price": "$430",
+            "category": "creative",
+            "value": "240",
+            "url": "https://www.figma.com/pricing/"
+        }
+		{
+            "name": "Sketch Standard",
+            "price": "$90",
+            "category": "creative",
+            "value": "220",
+            "url": "https://www.sketch.com/pricing/"
+        }
+		{
+            "name": "Sketch Business",
+            "price": "$240",
+            "category": "creative",
+            "value": "250",
+            "url": "https://www.sketch.com/pricing/"
+        }
+        {
+            "name": "Miro Starter",
+            "price": "$96",
+            "category": "creative",
+            "value": "300",
+            "url": "https://miro.com/pricing/"
+        }
+        {
+            "name": "Miro Business",
+            "price": "$240",
+            "category": "creative",
+            "value": "310",
+            "url": "https://miro.com/pricing/"
+        }
+        {
+            "name": "Miro Enterprise",
+            "price": "$240",
+            "category": "creative",
+            "value": "320",
+            "url": "https://miro.com/pricing/"
+        }		
     ]
 }
